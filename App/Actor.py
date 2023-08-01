@@ -1,5 +1,6 @@
 from functools import wraps
 from flask import g, request, redirect, session
+import math
 
 class Actor():
 	sess_key = ""
